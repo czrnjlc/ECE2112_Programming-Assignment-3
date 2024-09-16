@@ -18,7 +18,7 @@ This script includes operations to:**
 * Pandas library
 
 ## Explanation of Scripts
-### 1. Problem 1: Surname_Pandas-P1.py
+### Problem 1: Surname_Pandas-P1.py
 **Objective:**
 * To load a CSV file into a Pandas DataFrame and display the first and last five rows of the data.
 
@@ -43,7 +43,7 @@ Displays the last five rows of the DataFrame x. This is useful for checking the 
 ```
 x.tail()
 ```
-### 2. Problem 2: Surname_Pandas-P2.py
+### Problem 2: Surname_Pandas-P2.py
 **Objective:**
 To perform various operations on the DataFrame loaded from the CSV file, including subsetting, slicing, and filtering to extract specific information.
 
@@ -65,19 +65,19 @@ x = pd.read_csv('cars.csv')
 first_five_odd_rows = x.head(10).iloc[1::2]
 first_five_odd_rows
 ```
-#### 4.Displaying the Row for 'Mazda RX4'
+#### 4. Displaying the Row for 'Mazda RX4'
   * *x['Model'] == 'Mazda RX4'* : Creates a boolean mask where the 'Model' column matches 'Mazda RX4'.
   * *x.loc[...]* : Filters the DataFrame to include only rows where the condition is True.
 ```
 x.loc[x['Model']=='Mazda RX4']
 ```
-#### Finding Number of Cylinders for 'Camaro Z28'
+#### 5. Finding Number of Cylinders for 'Camaro Z28'
   * *x['Model'] == 'Camaro Z28'* : Creates a boolean mask for 'Camaro Z28'.
   * *x.loc[... , 'cyl']* : Retrieves the 'cyl' column for rows matching 'Camaro Z28'.
 ```
 x.loc[x['Model']=='Camaro Z28',['Model','cyl']]
 ```
-#### Number of Cylinders and Gear Type for Specific Car Models
+#### 6. Number of Cylinders and Gear Type for Specific Car Models
   * *car_models = ['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']* : Defines a list of car models to filter.
   * *x['Model'].isin(car_models)* : Creates a boolean mask to filter rows where 'Model' is in the car_models list.
   * *x.loc[..., ['Model', 'cyl', 'gear']]* : Selects the 'Model', 'cyl', and 'gear' columns.
@@ -93,9 +93,10 @@ x.loc[x['Model'].isin(car_models), ['Model','cyl','gear']]
 ### Profile
 **Author:** Czarina Julia C. Cueco
 
-*I am currently an engineering student working with data analysis using Pandas in Python. This repository is part of a programming assignment, where I explore how to load and manipulate data using the Pandas library.*
+*I am currently an engineering student from University of Santo Tomas, working with data analysis using Pandas in Python. This repository is part of a programming assignment, where I explore how to load and manipulate data using the Pandas library.*
 
 ### Edit History
-| Date           | Description                          |
-|----------------|--------------------------------------|
-| 2024-09-16     | Initial Creation                     |
+| Date           | Description                              |
+|----------------|------------------------------------------|
+| 2024-09-16     | Initial Creation                         |
+| 2024-09-16     | Updated README fixed grammatical errors  |
