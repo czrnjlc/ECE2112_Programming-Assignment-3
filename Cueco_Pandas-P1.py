@@ -1,3 +1,11 @@
+#---------------------------------------------------------------------
+# Course: ECE 2112
+# Title: Programming Assignment 3
+
+# Name: Czarina Julia C. Cueco
+# Year & Section: 2ECEB
+#---------------------------------------------------------------------
+
 # Importing the pandas library to work with data
 import pandas as pd
 
