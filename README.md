@@ -11,7 +11,7 @@ This repository contains Python scripts that utilize the Pandas library to perfo
 * Find the number of cylinders for the 'Camaro Z28' model.
 * Determine the number of cylinders and gear type for specific car models.
 
-**Cueco_PA_3**: Jupyter Notebook script for data analysis, which includes Problem 1 and 2.
+**Cueco_PA3**: Jupyter Notebook script for data analysis, which includes Problem 1 and 2.
 
 **cars.csv**: CSV file containing dataset of cars.
 
@@ -98,9 +98,10 @@ x.loc[x['Model'].isin(car_models), ['Model','cyl','gear']]
 *I am currently an engineering student from University of Santo Tomas, working with data analysis using Pandas in Python. This repository is part of a programming assignment, where I explore how to load and manipulate data using the Pandas library.*
 
 ### Edit History
-| Date           | Description                                                                              |
-|----------------|------------------------------------------------------------------------------------------|
-| 2024-09-16     | Initial Creation                                                                         |
-| 2024-09-16     | Updated README fixed grammatical errors                                                  |
-| 2024-09-16     | Uploaded a ipynb file and Updated README improved syntax                                 |
-| 2024-09-17     | Uploaded .py and csv files and Updated README improved syntax and added additional info  |
+| Date           | Description                                                                                                |
+|----------------|------------------------------------------------------------------------------------------------------------|
+| 2024-09-16     | Initial Creation                                                                                           |
+| 2024-09-16     | Updated README fixed grammatical errors                                                                    |
+| 2024-09-16     | Uploaded a ipynb file and Updated README improved syntax                                                   |
+| 2024-09-17     | Uploaded .py files                                                                                         |
+| 2024-09-18     | Updated README improved syntax, added additional info, and deleted and uploaded the correct .ipynb file    |
